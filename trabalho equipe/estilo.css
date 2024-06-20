@@ -1,0 +1,350 @@
+/* PROJETO BIOGRAFIA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-image: url("fundo2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+#topo {
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+    height: 190px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#topo h1 {
+    width: 600px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: #f2f2f2;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+#topo img {
+    width: 300px;
+}
+#estrela {
+    width: 400px;
+    height: 80px;
+}
+#menu {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 47%, rgba(0, 0, 0, 0.6) 62%, rgba(0, 0, 0, 0.9) 100%);
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: azure;
+}
+
+#menu ul li a:hover {
+    background-color: darkgray;
+}
+
+#abertura {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#abertura p {
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: #f2f2f2;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    position: relative;
+    top: -80px;    
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    color: #f2f2f2;
+    font-size: 25px;
+}
+
+#caixa2 {
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+#caixa2 img {
+    width: auto;
+    padding-top: 10px;
+    margin-right: 15px;
+    height: 30px;
+}
+
+.caixinha2 {
+    height: 84%;
+    width: 570px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#textoreserva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#textosobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+#textoquarto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+    color: #f2f2f2;
+}
+
+section {
+    padding: 10px;
+}
+
+#parte1 {
+    height: 100vh;
+    background-color: #171313aa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+#parte2 {
+    height: 100vh;
+    background-color: #171313aa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#parte2 ul {
+    margin-left: 100px;
+}
+
+#parte2 li {
+    margin-bottom: 30px;
+}
+
+#parte3 {
+    height: 100vh;
+    background-color: #171313aa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#parte4 {
+    height: 100vh;
+    background-color: #171313aa;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.proximo a {
+    color: white;
+}
+
+#rodape {
+    color: white;
+    text-align: center;
+    background-color: #575555aa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#rodape .coluna {
+    display: flex;
+    align-items: center;
+}
+
+#rodape p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#rodape img {
+    margin-right: 10px;
+}
+
+#parte2 {
+    background-color: #171313aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.caixas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin-top: 30px;   
+    display: flex;
+}
+
+.rooms-section {
+    padding: 40px 20px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.rooms-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.rooms-section p {
+    margin-bottom: 30px;
+}
+
+.room-types {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.room-type {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.room-type h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    
+}
+
+.room-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.room-images img {
+    width: 32%;
+    height: 190px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+   
+}
+
+.reservation-section {
+    padding: 130px 20px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.reservation-section h3 {
+    margin-bottom: 8%;
+    font-size: 35px;
+}
+
+.reservation-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.reservation-section form label {
+    text-align: left;
+}
+
+.reservation-section form input,
+.reservation-section form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-section form button {
+    background-color: #0075AA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    grid-column: span 2;
+    margin-top: 30px;
+}
+
+
+
